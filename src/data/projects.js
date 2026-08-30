@@ -15,6 +15,7 @@ import bank_churn from "./bank_churn.png";
 import prod_pers from "./prod_pers.png";
 import repoAiInterview from "./interview.png";
 import timeseries_automl from "./timeseries_automl.png";
+import mark from "./market-ai.png"
 
 export const allTags = [
   "Machine Learning", "Deep Learning", "FastAPI", "LangGraph", "RAG", "SQL",
@@ -30,7 +31,7 @@ export const projects = [
     description: "Led user research and Figma prototyping for a dual-interface mobile platform connecting organic farmers with consumers, addressing traceability, certification trust, and digital accessibility through localized UX. Developed a business model targeting 30,000+ farmers and 25,000+ consumers by Month 18 with subscription, bulk-order, and delivery revenue streams.",
     tags: ["Product Design", "Figma", "User Research", "Business Strategy", "UX/UI", "Market Research"],
     type: "deck",
-    deckUrl: "", // TODO
+    deckUrl: "https://drive.google.com/file/d/14Daz_Yow8ZAAwx5uZZfMrtQLFtU0_50o/view?usp=sharing", // TODO
     image: krishiKonnec
   },
   {
@@ -39,8 +40,18 @@ export const projects = [
     description: "Designed a digital lending solution for INDmoney by conducting market and competitor research, identifying user pain points, and defining key lending opportunities. Developed user personas, customer journeys, MVP features, and wireframes for instant loans, credit lines, and BNPL. Prioritized features using RICE scoring and defined product metrics and a phased go-to-market strategy.",
     tags: ["Data Analysis"],
     type: "deck",
-    deckUrl: "", // TODO: paste your deck link (e.g. Google Slides/Figma)
+    deckUrl: "https://drive.google.com/file/d/1OIgv1rgZU45rPYM43oO0a8jOrHY_JyNe/view?usp=drive_link", // TODO: paste your deck link (e.g. Google Slides/Figma)
     image: prod_pers
+  },
+  {
+    id: "MarketAI",
+    title: "MarketAI",
+    description: "A full-stack multi-agent system built with CrewAI, Groq LLMs, FastAPI, and React that coordinates 5 specialized AI agents to execute sequential market and business intelligence research.",
+    tags: ["Crew AI", "Multi Agent  Systems", "LLM", "Python", "FastAPI"],
+    type: "project",
+    liveUrl: "https://market-ai-ten-plum.vercel.app",
+    githubUrl: "https://github.com/HimnshuKumar7/MarketAI",
+    image: mark
   },
   {
     id: "customer-churn-prediction",

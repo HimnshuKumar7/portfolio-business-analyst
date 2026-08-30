@@ -1,12 +1,12 @@
 // Edit this file to update your Home page content.
 export const profile = {
   name: "Himanshu Kumar",
-  roles: ["Aspiring Business Analyst", "Data Analyst", "AI/ML Practitioner"],
+  roles: ["Aspiring Business Analyst", "AI/ML Enthusiast"],
 
   // Drop your photo in public/me.jpeg (or change this path)
   heroImage: "/me.jpeg",
 
-  about: `I'm a Business Analyst who bridges business problems and data-driven solutions.
+  about: `I'm an aspiring Business Analyst who bridges business problems and data-driven solutions.
             At IIT Guwahati, I work across requirements gathering, market research, user journey mapping, and feature prioritization.
             I combine business thinking with hands-on skills in SQL, Power BI, and Python-based machine learning.
             My work includes churn prediction achieving 0.891 ROC-AUC.

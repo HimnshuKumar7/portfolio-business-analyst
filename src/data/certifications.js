@@ -28,7 +28,7 @@ export const certifications = [
     issuer: "HackerRank",
     date: "Aug'26",
     description: "Successfully completed HackerRank's advanced SQL skill certification test.",
-    credentialUrl: "YOUR_HACKERRANK_CREDENTIAL_URL",
+    credentialUrl: "https://drive.google.com/file/d/1SMtvBQb_OS0VG0o-VksT3R1YBPjUysHR/view?usp=sharing",
     image: sql
   },
   {
